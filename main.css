@@ -1,0 +1,176 @@
+input{
+    color:rgba(0, 0, 0, 0.39) !important;
+}
+.swiper-container {
+    width: 100vw;
+    height: 80vh;
+    
+   
+}
+.landing-img{
+    
+    height: 80vh;
+    width: 100%;
+   
+    /* background: url(./images/books-1245690_1920.jpg) no-repeat scroll; */
+    /* background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url("./images/books-1245690_1920.jpg"); 
+   */
+      
+    /* opacity: 0.4; */ 
+}
+.img-1{
+    background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url("./images/notebook-336634_1920.jpg"); 
+  
+}
+.img-2{
+    background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url("./images/books-1245690_1920.jpg"); 
+  
+}
+.img-3{
+    background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0)), url("./images/books-1245690_1920.jpg"); 
+  
+}
+.macro-content{
+    margin-top: -500px;
+    position: absolute;
+    z-index: 1;
+}
+.lu-logo{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.landing-content{
+    padding-top: 6rem;
+    margin: 0 4rem;
+}
+.landing-text{
+    color: white;
+}
+
+.landing-text>h2{
+    font-size: 40px ;
+    padding-bottom: 5px;
+}
+.landing-text>p{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.lu-login-card{
+    width: 25vw;
+    height: 63vh;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+label{
+    font-size: 10px !important;
+}
+.lu-sponsor>figure{
+    display: inline-block;
+    margin-left: 20px;
+}
+.lu-rcourse{
+    font-weight: bold;
+   
+}
+.is-divider{
+    width:6rem;
+    height: 4px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 2px;
+}
+.lu-a{
+   
+    margin-top: 20px;
+   
+}
+.lu-cards{
+    width: 20vw;
+    height: 52vh;
+}
+.lu-contrast{
+    opacity: 0.3;
+}
+/* Top categories */
+
+.lu-cat{
+    /* width: 20vw; */
+    height: auto;
+}
+/* .is-centered{
+    margin: 0 7rem;
+} */
+
+/* GROUP 2 COMPRISES OF "STATISTICS","DONATION" AND " HOW IT WORKS" */
+
+.stat{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* GROUP 3 COMPRISES OF FOOTER */
+.lu-brand{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+@media screen and (min-width: 400px) {
+    .landing-text>h2{
+        font-size: 30px;
+    }
+    .landing-text>p{
+        font-size: 9px;
+    }
+   
+    .lu-cat{
+        width: auto;
+        height: auto;
+    }
+    /* .lu-cards{
+        width: 45vw;
+        height: 52vh;
+    } */
+    
+   
+
+}
+
+
+
+@media screen and (max-width:900px){
+    .landing-text>h2{
+        font-size: 40px;
+    }
+    .landing-text>p{
+        font-size: 14px;
+    }
+    .lu-login-card{
+        width: 34vw;
+        height: 63vh;
+        margin-top: 8rem;
+        margin-left: auto;
+    }
+    .lu-cards{
+        width: 40vw;
+        height: auto;
+    }
+
+    .lu-cat{
+        width: auto;
+        height: auto;
+    }
+   
+    
+   
+}
+@media screen and (max-width: 390px) {
+    .landing-text>h2{
+        font-size: 27px;
+    }
+    .landing-text>p{
+        font-size: 12px;
+    }
+}

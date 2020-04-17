@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn up!</title>
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./node_modules/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!-- Seciton one bar containing navbar and the landing page -->
+    <div class="" >
+        <header class="">
+
+            <nav class="navbar is-fixed-top is-warning is-spaced" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                  <a class="navbar-item" href="#">
+                    <p class="lu-logo">Learn <span class="has-text-danger">u</span>p!</p>
+                  </a>
+              
+                  <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+                </div>
+              
+                <div id="navbarBasicExample" class="navbar-menu">
+                  <div class="navbar-start">
+                    <a class="navbar-item">
+                      Home
+                    </a>
+              
+                        <div class="navbar-item has-dropdown is-hoverable">
+                          <a class="navbar-link">
+                            Categories
+                          </a>
+                         
+                              
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item">
+                                  Mathematics
+                                </a>
+                                <a class="navbar-item">
+                                  English
+                                </a>
+                                <a class="navbar-item">
+                                  Physics
+                                </a>
+                                <a class="navbar-item">
+                                    Chemistry
+                                  </a>
+                                  <a class="navbar-item">
+                                    Biology
+                                  </a>
+                                <hr class="navbar-divider">
+                                <div class="navbar-item">
+                                  More courses coming soon
+                                </div>
+                            </div>
+                          </div>
+    
+                      
+
+                    <a  href="./forum.html"class="navbar-item">
+                        Forum
+                      </a>
+              
+                    <div class="navbar-item has-dropdown is-hoverable">
+                      <a class="navbar-link">
+                        Contact
+                      </a>
+              
+                      <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                          About us
+                        </a>
+                        <a class="navbar-item">
+                          Contributors
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="navbar-end">
+                    <a class="navbar-item">
+                      Login
+                    </a>
+              
+                    <a class="navbar-item">
+                      Signup
+                    </a>
+
+                      </div>
+                  
+                </div>
+              </nav>
+           
+        </header>
+
+
+<!-- SECTION 2 -->
+      <div class="swiper-container landing-img">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide img-1"></div>
+      <div class="swiper-slide img-2"></div>
+      <div class="swiper-slide img-3"></div>
+      
+      </div>
+  </div>
+      
+        <div class=" macro-content">
+         
+        <div class="landing-content columns ">
+            <!-- the landing page is divided into two inner div; one for the text and searchbo. the other for the landing page icons -->
+            <div class="column landing-text container">
+                <h2>Take hold of the <span class="has-text-warning">digital</span> power to be <span class="has-text-warning">educated</span></h2>
+                <p class="">Lots of courses to gain knowledge from and are incredibly free.</p>
+                <!-- Form action to search for courses -->
+                <div class="field has-addons">
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Search for a course now">
+                    </div>
+                    <div class="control">
+                      <a class="button is-danger">
+                        Find
+                      </a>
+                    </div>
+                  </div>
+            </div>
+            <div class="column">
+                <!-- login and signup form -->
+                <div class="card container is-hidden-mobile lu-login-card">
+                    <footer class="card-header">
+                        <a href="#" class="card-footer-item button is-warning">Signup</a>
+                        <a href="#" class="card-footer-item button ">Login</a>
+                      </footer>
+                   
+                      <!-- this is the sign up/login form section -->
+                    <div class="card-content">
+                      <div class="content">
+                        <div class="field new-input">
+                            <label class="label">Name</label>
+                            <div class="control">
+                              <input class="input is-small" type="text" placeholder="Enter your full name">
+                            </div>
+                          </div>
+                          
+                          <div class="field">
+                            <label class="label">Username</label>
+                            <div class="control has-icons-left has-icons-right">
+                              <input class="input is-success is-small" type="text" placeholder="Enter your username" value="">
+                              <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                              </span>
+                              <span class="icon is-small is-right">
+                                <i class="fas fa-check"></i>
+                              </span>
+                            </div>
+                            <p class="help is-success">This username is available</p>
+                          </div>
+                          
+                          <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                              <input class="input is-danger is-small" type="email" placeholder="Enter your email" value="">
+                              <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                              </span>
+                              <span class="icon is-small is-right">
+                                <i class="fas fa-exclamation-triangle"></i>
+                              </span>
+                            </div>
+                            <p class="help is-danger">This email is invalid</p>
+                          </div>
+                          
+                          
+                          <div class="field">
+                            <div class="control">
+                              <label class="checkbox">
+                                <input type="checkbox">
+                                I agree to the <a href="#">terms and conditions</a>
+                              </label>
+                            </div>
+                          </div>
+                          
+                          
+                          <div class="field is-grouped">
+                            <div class="control">
+                              <button class="button is-danger">Submit</button>
+                            </div>
+                            
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- Section 2 comprises of sponsors of the project-->
+    <section class="">
+        
+        <!-- sponsors container -->
+        <div class="columns">
+            <!-- sponsors listed -->
+            <div class="column is-8 lu-sponsor is-hidden-mobile">
+              <figure class="lu-contrast ">
+                <img src="./images/adidas_PNG17.png" width="100" height="50">
+              </figure>
+              <figure class="lu-contrast ">
+                <img src="./images/cocacola_logo_PNG10.png" width="100" height="50">
+              </figure>
+              <figure class=" lu-contrast">
+                <img src="./images/nike_PNG19.png" width="100" height="50">
+              </figure>
+              <figure class="is-hidden-mobile is-hidden-tablet lu-contrast">
+                <img src="./images/adidas_PNG17.png" width="100" height="50">
+              </figure>
+              <figure class="is-hidden-mobile is-hidden-tablet lu-contrast">
+                <img src="./images/cocacola_logo_PNG10.png" width="100" height="50">
+              </figure>
+              <figure class="is-hidden-mobile is-hidden-tablet lu-contrast">
+                <img src="./images/nike_PNG19.png" width="100" height="50">
+              </figure>
+            </div>
+            <div></div>
+           
+        </div>
+    </section>
+
+    <!-- Section 3 comprises of recommended courses involving a sliding card -->
+    <section class="section">
+        <h2 class="lu-rcourse">Recommended courses</h2>
+        <hr class="is-divider">
+        <!-- there are going to be two divs for each r courses block, they are both slideable -->
+        <div class="lu-a columns is-multiline is-desktop">
+          <div class="column">
+          <div class="card lu-cards container">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="./images/notebook-336634_1920.jpg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">What is Physics</p>
+                  <p class="subtitle is-6">@learnUp</p>
+                </div>
+              </div>
+          
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Start course</a>
+             
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div>
+        </div>
+
+        <div class="column">
+          <div class="card lu-cards container">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="./images/notebook-336634_1920.jpg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">What is Government</p>
+                  <p class="subtitle is-6">@learnUp</p>
+                </div>
+              </div>
+          
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Start course</a>
+               
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div>
+        </div>
+
+        <div class="column">
+          <div class="card lu-cards container">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="./images/notebook-336634_1920.jpg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">What is Chemistry</p>
+                  <p class="subtitle is-6">@learnUp</p>
+                </div>
+              </div>
+          
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Start course</a>
+                
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div>
+        </div>
+
+        <div class="column">
+          <div class="card lu-cards container">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="./images/notebook-336634_1920.jpg" alt="">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">What is Biology</p>
+                  <p class="subtitle is-6">@learnUp</p>
+                </div>
+              </div>
+          
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Start course</a>
+                
+              </footer>
+            </div>
+          </div>
+        </div>
+        <div>
+        </div>
+            <!-- Recommended courses 2 -->
+        </div>
+        <!-- <button>see more courses</button> -->
+    </section>
+
+    <!-- Section 4 comprises of the top categories -->
+    <section class="section">
+      <h2 class="lu-rcourse">Top Categories</h2>
+      <hr class="is-divider">
+              <!-- Categories container -->
+              <div class="lu-a columns is-multiline">
+                <div class="column is-4">
+                  <div class="card lu-cat">
+                    <div class="is-centered">
+                        <figure class="container image is-48x48">
+                          <img src="./images/icons8-trigonometry-50.png">
+                        </figure>
+                    </div>
+                        <footer class="card-footer">
+                          <a href="#" class="card-footer-item">Mathematics</a>
+                        </footer>
+                    
+                  </div>
+                </div>
+
+                <div class="column is-4">
+                  <div class="card lu-cat">
+                    <div class="is-centered">
+                        <figure class="container image is-48x48">
+                          <img src="./images/icons8-physics-64.png">
+                        </figure>
+                    </div>
+                        <footer class="card-footer">
+                          <a href="#" class="card-footer-item">Physics</a>
+                        </footer>
+                    
+                  </div>
+                </div>
+
+                <div class="column is-4">
+                  <div class="card lu-cat">
+                    <div class="is-centered">
+                        <figure class="container image is-48x48">
+                          <img src="./images/icons8-aquarium-100 (1).png">
+                        </figure>
+                    </div>
+                        <footer class="card-footer">
+                          <a href="#" class="container card-footer-item">Chemistry</a>
+                        </footer>
+                    
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <div class="card lu-cat">
+                    <div class="is-centered">
+                        <figure class="container image is-48x48">
+                          <img src="./images/icons8-aquarium-100.png">
+                        </figure>
+                    </div>
+                        <footer class="card-footer">
+                          <a href="#" class="card-footer-item">Government</a>
+                        </footer>
+                    
+                  </div>
+                </div>
+
+                <div class="column is-4">
+                  <div class="card lu-cat">
+                    <div class="is-centered">
+                        <figure class="container image is-48x48">
+                          <img src="./images/icons8-lowercase-64 (1).png">
+                        </figure>
+                    </div>
+                        <footer class="card-footer">
+                          <a href="#" class="card-footer-item">Biology</a>
+                        </footer>
+                    
+                  </div>
+                </div>
+
+                <div class="column is-4">
+                  <div class="card lu-cat">
+                    <div class="is-centered">
+                        <figure class="container image is-48x48">
+                          <img src="./images/icons8-lowercase-64.png">
+                        </figure>
+                    </div>
+                        <footer class="card-footer">
+                          <a href="#" class="card-footer-item">English</a>
+                        </footer>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- Section 5 contains traffic statistics -->
+        <!-- statistics container -->
+        <section class="section container has-text-centered">
+          <!-- statistics -->
+          <div class="columns">
+            <div class="column is-3">
+              <h3 class="has-text-grey">Course Created</h3>
+              <p class="stat">
+                2500+
+              </p>
+            </div>
+            <div class="column is-3">
+              <h3 class="has-text-grey">Students</h3>
+              <p class="stat">
+                1500
+              </p>
+            </div>
+            <div class="column is-3">
+              <h3 class="has-text-grey">Countries</h3>
+              <p class="stat">
+                120
+              </p>
+            </div>
+            <div class="column is-3">
+              <h3 class="has-text-grey">Donation</h3>
+              <p class="stat">
+                20M
+              </p>
+            </div>
+          </div>
+    </section>
+    <!-- Section 6 contains donation bar -->
+    <section>
+        <h2>Donate now</h2>
+        <p>This free learning platform is brought to you by lots of contributors. support us to keep bringing you the best contents.</p>
+        <!-- the donation bar -->
+        <div></div>
+    </section>
+    <!-- Section 7 shows how the platforms work -->
+    <section class="section">
+        <h2 class="lu-rcourse">HOW IT WORKS</h2>
+        <hr class="is-divider">
+        <!-- columns for how it works -->
+        <div class="lu-a columns">
+          <div class="column is-4">
+            <div class="card">
+              <div class="is-centered">
+                  <figure class="container image is-48x48">
+                    <img src="./images/icons8-lowercase-64 (1).png">
+                  </figure>
+              </div>
+            </div>
+          </div>
+              <div class="column is-4">
+                <div class="card">
+                  <div class="is-centered">
+                      <figure class="container image is-48x48">
+                        <img src="./images/icons8-lowercase-64 (1).png">
+                      </figure>
+                  </div>
+                </div>
+              </div>
+                  <div class="column is-4">
+                    <div class="card">
+                      <div class="is-centered">
+                          <figure class="container image is-48x48">
+                            <img src="./images/icons8-lowercase-64 (1).png">
+                          </figure>
+                      </div> 
+                    </div>
+                  </div>         
+        </div>
+    </section>
+    <!-- footer  -->
+
+    <footer class="footer has-background-grey-lighter">
+      <div class="columns tabs">
+        <h1 class=" column lu-brand">Learn up!</h1>
+        <nav class="column">
+            <ul>
+                <li><a href="">Contributors</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Policy</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+          </nav>
+          <nav class="column">
+          <ul>
+            <li><a href="">facebook</a></li>
+            <li><a href="">twitter</a></li>
+            <li><a href="">instagram</a></li>
+        </ul>
+      </nav>
+        
+      </div>
+        <div class="container has-text-centered">
+            <p class="">created by codekave & keyula</p>
+        </div>
+        
+    </footer>
+    <script src="./node_modules/swiper/js/swiper.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+           delay: 5000,
+          },
+    
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+    
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+    
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+        zoom: {
+          maxRatio: 5,
+      },
+      })
+      </script>
+</body>
+</html>
